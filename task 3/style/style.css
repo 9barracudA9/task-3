@@ -149,8 +149,7 @@ body {
 }
 .hero {
     font-weight: 400;
-    font-size: 42px;
-    line-height: 80px;
+    
     letter-spacing: -0.015em;
     color: #000000;
     margin-bottom: 40px;
@@ -290,11 +289,12 @@ border: 1px solid rgba(0, 0, 0, 0.5);
 .password input{
     width: 330px;
 }
-.container-form{
-    padding: 50px;
- width: 350px;
-}
+.form{padding: 50px;
+    width: 350px;}
 .email,.name,.password{
-    max-height: 30px;
+   
     margin: 24px 0;
 }
+
+h1,h2{font-size: 42px;
+    line-height: 80px;}
