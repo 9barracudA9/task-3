@@ -198,12 +198,103 @@ body {
 .container.background {
     background: url(../img/Rectangle.png) 0 0/100% 100% no-repeat;
     height: 960px;
-   
- 
 }
 .row.background {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+.row.wrapper {
+    height: 900px;
+    background: url(../img/Rectangle.png) 0 0/100% 100% no-repeat;
+    flex-direction: column;
+    position: relative;
+}
+.empty-row {
+    height: 50%;
+}
+.play-button {
+    position: absolute;
+    top: 42%;
+}
+.hero-text.long {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-text.long h1 {
+    margin-bottom: 50px;
+}
+.row.long {
+    height: 50%;
+}
+.button-secondary.long {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.column {
+    width: 50%;
+    position: relative;
+}
+.rectangle {
+    width: 600px;
+}
+.play-button.column {
+    position: absolute;
+    top: 267px;
+    right: 241px;
+    height: 132px;
+    width: 132px;
+}
+.column.direction-column {
+    position: relative;
+    height: 300px;
+}
+.row.wrapper.direction-column {
+    display: block;
+}
+.image.direction-column {
+    padding: 0 60px;
+}
+.play-button.direction-column {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 69px;
+    left: 173px;
+}
+.hero-form{
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.5);
+ max-width: 450px;
+}
+.hero-subtittle{
     
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+}
+.column.form{
+    margin:150px 0;
+}
+input{
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.email input{
+    width: 330px;
+
+}
+.password input{
+    width: 330px;
+}
+.container-form{
+    padding: 50px;
+ width: 350px;
+}
+.email,.name,.password{
+    max-height: 30px;
+    margin: 24px 0;
 }
