@@ -96,7 +96,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50%;
 }
 
 .header-menu {
@@ -207,7 +206,7 @@ body {
 .row-wrapper {
     height: 600px;
     background: url(../img/Rectangle.png) 0 0/100% 100% no-repeat;
-text-align: center;
+    text-align: center;
     position: relative;
 }
 .utility {
@@ -362,28 +361,112 @@ h2 {
     margin-bottom: 40px;
 }
 
-
-
 /********************SNAP**********************/
 
-
-.snap-tittle{
+.snap-tittle {
     font-size: 40px;
     max-width: 50%;
     margin-bottom: 50px;
 }
-.snap-items{
+.snap-items {
     display: flex;
     gap: 50px;
 }
-.snap-img{
+.snap-img {
     margin-bottom: 20px;
 }
-.item-txt{font-size: 18px;
+.item-txt {
+    font-size: 18px;
     margin-bottom: 32px;
 }
-.item-tittle{
+.item-tittle h2 {
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 24px;
 }
+.item-tittle {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.rect2 {
+    max-width: 600px;
+}
+.wrapper {
+    display: flex;
+}
+.px40{padding: 0px 40px;}
+.ml40 {
+    margin-left: 40px;
+}
+.mr40 {
+    margin-right: 40px;
+}
+.mb60 {
+    margin-bottom: 60px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.mb100 {
+    margin-bottom: 100px;
+}
+.g30 {
+    gap: 30px;
+}
+.g60{gap: 60px;}
+.mw350{max-width: 350px;}
+.mw550{max-width: 550px;}
+.tac {
+    text-align: center;
+}
+.ai-c{align-items: center;}
+.h600 {
+    height: 600px;
+}
+.jcc {
+    justify-content: center;
+}
+.bb {
+    border-bottom: #00000080 1px solid;
+    padding-bottom: 30px;
+}
+.border {
+    border: #00000080 1px solid;
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item-subtitle {
+    color: #18a0fb;
+    font-weight: 700;
+    font-size: 18px;
+}
+.title.lyt {
+    font-size: 32px;
+}
+.subtitle-layout {
+    font-size: 24px;
+}
+.rect4 {
+    max-width: 600px;
+}
+.rect5 {
+    max-width: 350px;
+}
+.rect6{max-width: 549px;}
+.column-items {min-width: 550px;
+    
+}
+.content-wrapper{height: 800px;
+display: flex;
+align-items: center;}
+.image-layout{display: block;}
+.small{height: 400px;}
+.dir-col{ flex-direction: column;}
+.mid{height: 600px;}
+.content-box{max-width: 800px;
+margin: 0 auto  ;}
